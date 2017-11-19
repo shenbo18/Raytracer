@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationGenerator.cpp">
+      <Filter>common\Acceleration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationNode.cpp">
+      <Filter>common\Acceleration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationStructure.cpp">
+      <Filter>common\Acceleration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\BVH\BVHAcceleration.cpp">
+      <Filter>common\Acceleration\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\BVH\Internal\BVHNode.cpp">
+      <Filter>common\Acceleration\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\Naive\NaiveAcceleration.cpp">
+      <Filter>common\Acceleration\Naive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\UniformGrid\Internal\Voxel.cpp">
+      <Filter>common\Acceleration\UniformGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\UniformGrid\Internal\VoxelGrid.cpp">
+      <Filter>common\Acceleration\UniformGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\UniformGrid\UniformGridAcceleration.cpp">
+      <Filter>common\Acceleration\UniformGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Application.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Intersection\IntersectionState.cpp">
+      <Filter>common\Intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Output\ImageWriter.cpp">
+      <Filter>common\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\RayTracer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Material\BlinnPhong\BlinnPhongMaterial.cpp">
+      <Filter>common\Rendering\Material\BlinnPhong</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Material\Material.cpp">
+      <Filter>common\Rendering\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer.cpp">
+      <Filter>common\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer\Backward\BackwardRenderer.cpp">
+      <Filter>common\Rendering\Renderer\Backward</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer\Photon\Photon.cpp">
+      <Filter>common\Rendering\Renderer\Photon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer\Photon\PhotonMappingRenderer.cpp">
+      <Filter>common\Rendering\Renderer\Photon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Textures\CubeMapTexture.cpp">
+      <Filter>common\Rendering\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Textures\Texture.cpp">
+      <Filter>common\Rendering\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Textures\Texture2D.cpp">
+      <Filter>common\Rendering\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\Adaptive\Simple\SimpleAdaptiveSampler.cpp">
+      <Filter>common\Sampling\Adaptive\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\ColorSampler.cpp">
+      <Filter>common\Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\Jitter\JitterColorSampler.cpp">
+      <Filter>common\Sampling\Jitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Camera\Camera.cpp">
+      <Filter>common\Scene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Camera\Perspective\PerspectiveCamera.cpp">
+      <Filter>common\Scene\Camera\Perspective</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Mesh\MeshObject.cpp">
+      <Filter>common\Scene\Geometry\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Primitives\Triangle\Triangle.cpp">
+      <Filter>common\Scene\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Ray\Ray.cpp">
+      <Filter>common\Scene\Geometry\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Simple\Box\Box.cpp">
+      <Filter>common\Scene\Geometry\Simple\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Area\AreaLight.cpp">
+      <Filter>common\Scene\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Directional\DirectionalLight.cpp">
+      <Filter>common\Scene\Lights\Directional</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Light.cpp">
+      <Filter>common\Scene\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Point\PointLight.cpp">
+      <Filter>common\Scene\Lights\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Scene.cpp">
+      <Filter>common\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\SceneObject.cpp">
+      <Filter>common\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Diagnostics\Diagnostics.cpp">
+      <Filter>common\Utility\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Mesh\Loading\MeshLoader.cpp">
+      <Filter>common\Utility\Mesh\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Texture\TextureLoader.cpp">
+      <Filter>common\Utility\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Timer\Timer.cpp">
+      <Filter>common\Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment5\Assignment5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment6\Assignment6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment7\Assignment7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment8\Assignment8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationCommon.h">
+      <Filter>common\Acceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationGenerator.h">
+      <Filter>common\Acceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationNode.h">
+      <Filter>common\Acceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationStructure.h">
+      <Filter>common\Acceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\AccelerationTypes.h">
+      <Filter>common\Acceleration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\BVH\BVHAcceleration.h">
+      <Filter>common\Acceleration\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\BVH\Internal\BVHNode.h">
+      <Filter>common\Acceleration\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\Naive\NaiveAcceleration.h">
+      <Filter>common\Acceleration\Naive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\UniformGrid\Internal\Voxel.h">
+      <Filter>common\Acceleration\UniformGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\UniformGrid\Internal\VoxelGrid.h">
+      <Filter>common\Acceleration\UniformGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Acceleration\UniformGrid\UniformGridAcceleration.h">
+      <Filter>common\Acceleration\UniformGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Application.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Intersection\IntersectionState.h">
+      <Filter>common\Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Output\ImageWriter.h">
+      <Filter>common\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\RayTracer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Material\BlinnPhong\BlinnPhongMaterial.h">
+      <Filter>common\Rendering\Material\BlinnPhong</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Material\Material.h">
+      <Filter>common\Rendering\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer.h">
+      <Filter>common\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer\Backward\BackwardRenderer.h">
+      <Filter>common\Rendering\Renderer\Backward</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer\Photon\Photon.h">
+      <Filter>common\Rendering\Renderer\Photon</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Renderer\Photon\PhotonMappingRenderer.h">
+      <Filter>common\Rendering\Renderer\Photon</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Textures\CubeMapTexture.h">
+      <Filter>common\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Textures\Texture.h">
+      <Filter>common\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Rendering\Textures\Texture2D.h">
+      <Filter>common\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\Adaptive\Simple\SimpleAdaptiveSampler.h">
+      <Filter>common\Sampling\Adaptive\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\ColorSampler.h">
+      <Filter>common\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\Jitter\JitterColorSampler.h">
+      <Filter>common\Sampling\Jitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Sampling\SamplerCommon.h">
+      <Filter>common\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Camera\Camera.h">
+      <Filter>common\Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Camera\Perspective\PerspectiveCamera.h">
+      <Filter>common\Scene\Camera\Perspective</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Mesh\MeshObject.h">
+      <Filter>common\Scene\Geometry\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Primitives\Primitive.h">
+      <Filter>common\Scene\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Primitives\PrimitiveBase.h">
+      <Filter>common\Scene\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Primitives\Triangle\Triangle.h">
+      <Filter>common\Scene\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Ray\Ray.h">
+      <Filter>common\Scene\Geometry\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Geometry\Simple\Box\Box.h">
+      <Filter>common\Scene\Geometry\Simple\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Area\AreaLight.h">
+      <Filter>common\Scene\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Directional\DirectionalLight.h">
+      <Filter>common\Scene\Lights\Directional</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Light.h">
+      <Filter>common\Scene\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Lights\Point\PointLight.h">
+      <Filter>common\Scene\Lights\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\Scene.h">
+      <Filter>common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Scene\SceneObject.h">
+      <Filter>common\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Diagnostics\Diagnostics.h">
+      <Filter>common\Utility\Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Mesh\Loading\MeshLoader.h">
+      <Filter>common\Utility\Mesh\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Texture\TextureLoader.h">
+      <Filter>common\Utility\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\Utility\Timer\Timer.h">
+      <Filter>common\Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\common\core.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment5\Assignment5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment6\Assignment6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment7\Assignment7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\assignment8\Assignment8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bo\cs148raytracer\cs148raytracer-public\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common\Rendering\Material\BlinnPhong">
+      <UniqueIdentifier>{8EEC917D-8858-33CB-81E1-AB4C418C8417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Camera\Perspective">
+      <UniqueIdentifier>{4E73AB90-A7F0-3FF4-8D4B-466537CA3CE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Sampling\Adaptive\Simple">
+      <UniqueIdentifier>{5FC5DAFF-E5E6-3F4B-ADFF-31D814B0E9E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Acceleration\BVH">
+      <UniqueIdentifier>{86BD196A-D4DD-3821-ACBF-455DE249E0C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Acceleration\Naive">
+      <UniqueIdentifier>{3170246A-B917-3FB4-B490-9FF4B8ED0135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Acceleration\UniformGrid">
+      <UniqueIdentifier>{E5B7E4ED-CCBF-3C3F-849C-FEDC615D8F69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Rendering\Textures">
+      <UniqueIdentifier>{2AD5C9BB-EB7D-3616-9114-C0A220DDE9BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Rendering\Material">
+      <UniqueIdentifier>{BF5E3539-4C4A-3D89-BB2D-109F95B150F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Rendering\Renderer">
+      <UniqueIdentifier>{B4DDAB04-205E-3713-ACDF-26916D73A1EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Rendering\Renderer\Backward">
+      <UniqueIdentifier>{1E4B8802-18D6-3724-87F4-A5E47536342A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Rendering\Renderer\Photon">
+      <UniqueIdentifier>{2F422E0F-B4D4-3CE0-81B0-41ED6094FAC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F2386A1-EEFA-3112-A2CF-C090AAFEAEED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{340F5BD5-39BB-3BE9-AB40-6B4DFF813B12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{0B2419C5-5C60-3C89-91B3-5C8F44703A1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Acceleration">
+      <UniqueIdentifier>{5AA88F82-99FD-3B73-9D06-3FDC7B61E3C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Intersection">
+      <UniqueIdentifier>{3D441197-B01F-37CE-96F9-291322BB54D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Output">
+      <UniqueIdentifier>{B87AB035-CA45-3756-B25D-E22DDAF1C518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Rendering">
+      <UniqueIdentifier>{09CD0C52-16E1-34AF-8E0C-9547AD9204B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Sampling">
+      <UniqueIdentifier>{5A82C7DF-6BD1-3EA7-805D-B254D6C61100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene">
+      <UniqueIdentifier>{1BFEE323-1BDA-32E1-8403-B70664417C8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Utility">
+      <UniqueIdentifier>{DB76C687-92C8-3EBC-8201-10DA359EFAAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Sampling\Adaptive">
+      <UniqueIdentifier>{ABA53DE3-201D-3759-88B7-5CDB0C588E5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Sampling\Jitter">
+      <UniqueIdentifier>{1428D04B-B9FB-3A28-AB1C-15FF681B945D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Camera">
+      <UniqueIdentifier>{E7FA5083-1A5F-3F00-89F9-72EF4E245F32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Geometry">
+      <UniqueIdentifier>{9DAEAC7C-8A0F-3851-A26E-7F20EB5EABEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Lights">
+      <UniqueIdentifier>{C1710A4E-4226-3117-B62D-31D4CA957247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Geometry\Mesh">
+      <UniqueIdentifier>{1F72ACA8-F9F1-3AAB-A510-C0A8F78F0D20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Geometry\Ray">
+      <UniqueIdentifier>{E0563A21-61C9-34D2-92FF-DFD3914A5607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Geometry\Simple">
+      <UniqueIdentifier>{705C98EB-EDB9-3823-96E3-BDCDA3285F6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Geometry\Simple\Box">
+      <UniqueIdentifier>{ABBFB922-2998-32DB-B1A3-9A8E94D191D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Utility\Mesh\Loading">
+      <UniqueIdentifier>{151A18D6-7B9E-346D-8AEC-C75202580E2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Lights\Directional">
+      <UniqueIdentifier>{CA286F4A-8C1F-3BF7-AC75-B29AEEE437AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Scene\Lights\Point">
+      <UniqueIdentifier>{2BAB52E4-3650-3B1F-A7F0-1575749BA3E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Utility\Diagnostics">
+      <UniqueIdentifier>{AABEF89F-E1C0-3D15-8DCC-2F095E7ACF6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Utility\Texture">
+      <UniqueIdentifier>{B6B37DD8-83FB-330F-8FEF-DE0DA950FBB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Utility\Mesh">
+      <UniqueIdentifier>{A19CAFEB-97C5-3A61-85EA-B778F028DB12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\Utility\Timer">
+      <UniqueIdentifier>{979F7466-BEEF-3FAA-8FC5-95B12D4757CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/Bo/cs148raytracer/cs148raytracer-public/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/Bo/cs148raytracer/cs148raytracer-public/CMakeLists.txt'
+    is newer than 'C:/Users/Bo/cs148raytracer/cs148raytracer-public/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- 64 bits compiler detected
+  -- No build type selected, default to Release
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/Bo/cs148raytracer/cs148raytracer-public/build

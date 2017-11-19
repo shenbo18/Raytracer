@@ -1,0 +1,3 @@
+C:/Users/Bo/cs148raytracer/cs148raytracer-public/build/CMakeFiles/cs148raytracer.dir
+C:/Users/Bo/cs148raytracer/cs148raytracer-public/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Bo/cs148raytracer/cs148raytracer-public/build/CMakeFiles/ZERO_CHECK.dir
